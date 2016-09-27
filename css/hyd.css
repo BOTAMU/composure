@@ -1,0 +1,127 @@
+.cf:after {
+    content: '';
+    clear: both;
+    display: table
+}
+body {font-family: Arial , "微软雅黑";}
+.hu-box {
+    width: 880px;
+    float: left;
+}
+
+.hu-box-info {
+    font-weight: bold;
+    border-bottom: 2px solid #f8f8f8;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.hu-info-top {
+    font-size: 24px;
+}
+
+.hu-info-head {
+    font-size: 12px;
+    color: #9f9f9f
+}
+
+.hu-info-head span {
+    color: #ff5842
+}
+
+.hu-box-info > p {
+    color: #6c6c6c;
+    line-height: 30px;
+    font-size: 14px;
+    text-indent: 2em
+}
+
+.all-comment {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.hu-box-comment .comment {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f8f8f8
+}
+
+.hu-box-comment .comment .img {
+    float: left;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.hu-box-comment .comment .user-comment {
+    float: left;
+    line-height: 0;
+    height: 50px
+}
+.hu-box-comment .comment .user-comment>p{
+    margin: 0;
+    padding: 10px 0;
+}
+.hu-box-comment .comment .what {
+    float: right;
+    margin-left: 580px;
+    height: 66px;
+    line-height: 0
+}
+
+.hu-box-comment .comment .user {
+    font-size: 18px;
+    color: #ff5842
+}
+
+.hu-box-comment .comment .time {
+    font-size: 12px;
+    color: #838383
+}
+
+.comment .content {
+    float: left;
+    font-size: 16px;
+    color: #272727;
+    line-height: 24px
+}
+
+.hu-box-comment .comment-bottom {
+    padding-bottom: 90px
+}
+
+.hu-bottom p {
+    font-size: 24px;
+}
+
+.hu-bottom input {
+    font-size: 18px;
+    margin: 30px auto 30px 0
+}
+
+.hu-bottom .comment-name {
+    width: 432px;
+    height: 45px;
+    text-indent: 1em
+}
+
+.hu-bottom .comment-info {
+    width: 876px;
+    height: 140px;
+    text-indent: 1em;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.hu-bottom .btn {
+    width: 183px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background: #ff5842;
+    border: 0 none;
+    cursor: pointer
+}

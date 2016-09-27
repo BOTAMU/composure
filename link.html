@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>link</title>
+    <link rel="stylesheet" href="css/ke.css">
+</head>
+<body>
+
+<!-----头部---->
+<div class="ke-top cf">
+    <div class="img"><img src="images/01_home_page(magazine)_03.png"></div>
+
+    <ul class="ke-ul1">
+        <li>Creative Html template</li>
+        <li>Call us toll free: +2 000 123 45 67</li>
+    </ul>
+    <ul class="ke-ul2">
+        <li><input placeholder="Search"><span class="add-on"><img src="images/03_03.png"></span></li>
+    </ul>
+</div>
+
+<div class="ke-top4 cf">
+    <dl class="ke-dl cf">
+        <dt id="keDl" class="ke-dt">
+            <a class="ke-span" href="home_two.html" target="page">Home</a>
+            <a href="blog.html" target="page">Blog</a>
+            <a href="shop.html" target="page">Shop</a>
+            <a href="services.html" target="page">Services</a>
+            <a href="portfolio.html" target="page">Portfolio</a>
+            <a href="aboutUs.html" target="page">About us</a>
+            <a href="contactUs.html" target="page">Contact us</a>
+        </dt>
+        <dd class="ke-dd">
+            <span class="ke-span1">Join us</span>
+            <span class="ke-span2">Login</span>
+        </dd>
+    </dl>
+</div>
+
+
+<iframe src="home_one.html" id="myIframe" class="oIframe" frameborder="0" name="page" scrolling="no"></iframe>
+
+
+<!----底部--->
+<div class="ke-bom">
+    <div class="ke-bom1 cf">
+        <dl>
+            <dt><img src="images/ke-b_03.png">About Company</dt>
+            <dd class="ke-bom-dd">
+                Nullam ut commodo velit. Quisque sit amet arcu nisi. Sed id massa et mauris lacinia condimentum. In
+                luctus suscipit laoreet. Suspendisse a arcu quis neque tincidunt posuere sagittis ac lacus. Aenean
+                tristique accumsan ipsum vitae molestie. Etiam vulputate.
+            </dd>
+        </dl>
+        <dl class="ke-bom-dl">
+            <dt>Support</dt>
+            <dd>
+                <p>Support home</p>
+                <p>Surface Support</p>
+                <p>Knowledge base</p>
+            </dd>
+        </dl>
+        <dl class="ke-bom-dl">
+            <dt>Downloads</dt>
+            <dd>
+                <p>Microsoft Office</p>
+                <p> Windows 8</p>
+                <p>Skype</p>
+                <p> Surface User Guide</p>
+            </dd>
+        </dl>
+        <dl class="ke-bom-dl">
+            <dt>Support</dt>
+            <dd>
+                <p>Support home</p>
+                <p>Surface Support</p>
+                <p>Knowledge base</p>
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<!----最底部--->
+<div class="ke-bom2">
+
+    <div class="ke-bom3 cf">
+        <dl>
+            <dt>© 2013 M-elgendy - All rights reserved.</dt>
+            <dd>
+                <span><img src="images/1_03.png"></span>
+                <span><img src="images/1_05.png"></span>
+                <span><img src="images/1_07.png"></span>
+                <span><img src="images/1_09.png"></span>
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    $("#myIframe").load(function () {
+        var mainheight = $(this).contents().find("body").height() + 10;
+        $(this).height(mainheight);
+    });
+</script>
+</body>
+</html>

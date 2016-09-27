@@ -1,0 +1,21 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, code, del, em, img, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+	outline: none;
+    border: 0 none;
+    list-style: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    /*font-family: Segoe UI Light, Calibri;*/
+    font-family: Arial , "微软雅黑";
+}
+img {overflow: hidden; vertical-align: top; background: #eee;}
+.cf:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

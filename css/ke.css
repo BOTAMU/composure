@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding:0;
+    vertical-align: middle;
+}
+body {
+    font-size: 12px;
+    font-family: Arial , "微软雅黑";;
+}
+a {
+    text-decoration: none;
+}
+ul,dl, dt, dd, li {
+    list-style-type: none;
+}
+.cf:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+.cf:after {
+    *zoom:1
+}
+
+/*-----头部------*/
+.ke-top{border:0px solid#f00;
+    width: 1200px;margin:20px auto;}
+.ke-top ul,.img{float: left;}
+.ke-top .img{width: 218px;height: 43px;border:0px solid#f00;margin-top: 10px;}
+
+
+.ke-ul1{width:280px;border-left:1px solid#ccc;height: 43px;padding: 5px 20px;margin:5px 20px 0 20px;font-size: 13px;color: #999;}
+.ke-ul2{margin:7px 0 0 255px;height: 55px;}
+.ke-ul2 input{border:1px solid#ccc;border-right:none;width:309px;height: 41px;padding-left: 10px;}
+.ke-ul2 img{float: right;}
+
+
+.ke-top4{border:0px solid#f00; width: 1200px;height:27px;margin:13px auto;}
+.ke-dl{border:0px solid#ccc;font-size: 15px;}
+.ke-dt{border:0px solid#ccc;float: left}
+.ke-dt a{border:0px solid#ccc;margin-right: 50px; color: #000;}
+.ke-dt .ke-span{color: #f00;}
+.ke-dd{float: right}
+.ke-dd span{border:0px solid#ccc;padding:5px 14px; color: #fff;}
+.ke-dd .ke-span1{background: #ff5842;}
+.ke-dd .ke-span2{background: #a1a1a1; }
+
+/*-----头部下面选项卡------*/
+.ke-top1{width: 100%;border: 2px solid#f24933;margin-top: 5px}
+.ke-top2{width: 100%;background: #ff5842;height: 47px;line-height: 47px;}
+.ke-top3{width: 1200px;margin:0 auto;}
+.ke-top3 li{width:125px;float: left;font-size: 15px;color: #fff;border-right:1px solid transparent;text-align: center;position: relative;}
+.ke-top3 li.kem{background: #f24933; border-right: 1px solid #f24933;}
+.ke-top3 li.ken{background: #ff5842; border-right: 1px solid #ff5842;}
+
+.ke-top3 ul span{border: 1px solid#f24933;height: 30px;position: absolute;top: 8px;left:-2px;}
+.ke-top3 span.kel {display: none;}
+.ke-top3 span.kej {display: block;}
+
+.oIframe {width: 100%;}
+
+/***********************************主图轮播效果*********************************/
+/*主图轮播*/
+.lhn_carouse_home {}
+.home_carouse {height: 477px; position: relative; background: #fff;}
+.home_carouse .home_img {position: absolute; top: 0; left: 0; width: 100%; height: 477px; background-position: center top;}
+/*信息部分*/
+.home_carouse .home_img .home_info{position: relative; width: 1200px; height: 477px; margin: 0 auto; z-index: 10;}
+.home_carouse .h1 .info {position: absolute; top: 0; left: 0; width: 1200px; height: 477px;}
+.home_carouse .info_con {padding: 40px 0 20px 0;}
+.home_carouse .info_one {color: #f60; font-size: 32px; }
+.home_carouse .info_two {color: #999; font-size: 22px; height: 70px; line-height: 70px;}
+.home_carouse .info_bor {width: 508px; height: 1px; background: #e2e2e2; margin-top: 10px;}
+.home_carouse .info_explain {width: 490px; margin-bottom: 57px; line-height: 30px; color: #666; font-size: 14px;}
+.home_carouse .info_btn {display: inline-block; width: 276px; height: 57px;  line-height: 57px; background: #ff5842;}
+.home_carouse .info_wor {float: left; margin-left: 16px; color: #fff; font-size: 30px;}
+.home_carouse .info_bag { float: right; width: 21px; height: 21px; background: url('../images/lhn04.png') no-repeat; margin: 21px 21px 0 0}
+
+/*左右箭头*/
+.home_carouse .home_change {width: 1200px; height: 41px; position: absolute; top: 50%; left: 50%; margin: -50px 0 0 -601px;}
+.home_carouse .home_change p {display: block; width: 41px; height: 41px; background: url("../images/lhnLr.png") no-repeat; position: absolute; z-index: 2;}
+.home_carouse .home_change p.top_prev {left: -41px;}
+.home_carouse .home_change p.down_next {right: -41px; background-position: -41px 0;}
+
+/************************************广告插入*******************************/
+.lhn_insert_advert {width: 100%; height: 100px; background: url('../images/lhn05.png') repeat-x;}
+.lhn_insert_advert .insert_content {width: 1200px; margin: 0 auto; padding: 24px 0 26px; color: #fff; font-size: 23px; }
+.lhn_insert_advert .insert_content_info {float: left;}
+.lhn_insert_advert .insert_join {display: block; float: left; width: 172px; line-height: 50px; text-align: center; color: #fff; font-size: 23px; background: #1f1f1f;}
+.lhn_insert_advert .insert_us {float: left; margin-left: 10px; margin-top: 12px;}
+.lhn_insert_advert .insert_close {float: right; display: inline-block; width: 22px; height: 22px;background: url('../images/lhn06.png') no-repeat; margin-top: 16px;}
+
+/************************************中间部分******************************/
+.ke-ctr{width: 1200px;margin:0 auto;overflow: hidden;border: 0px  solid#ccc;}
+.ke-ctr .ke-ctr-p{font-size: 18px;margin-top:20px; }
+.ke-ctr-span{margin-left:573px;}
+.ke-ctr-dl{width:281px;height: 370px;border:2px solid#ededed;text-align: center;line-height: 25px;}
+
+.ke-ctr1{width: 1235px;margin-top: 6px;}
+.ke-ctr1 dl{float: left;margin:6px 20px 40px 0;}
+.ke-ctr-dl dt{height: 266px;}
+.ke-ctr-dl dd{background: #f8f8f8;padding:10px;  }
+.ke-ctr-dl .ke-ctr-dl-p1{color: #ff5842;}
+.ke-ctr-dl .ke-ctr-dl-p2{width:102px;height:26px;background:#e6e6e6;margin: 4px auto;cursor: pointer; }
+.ke-ctr-dl .ke-ctr-dl-p2 a{color:#000;}
+.ke-ctr-dl .ke-ctr-dl-p3{width:102px;height:26px;background:#ff5842;margin: 4px auto;cursor: pointer;}
+.ke-ctr-dl .ke-ctr-dl-p3 a{color:#fff;}
+
+hr{color: #f00;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----底部------*/
+.ke-bom{width: 100%;height:210px;background: #222f35;padding-top: 20px;}
+.ke-bom1{width: 1200px;margin: 0 auto;}
+.ke-bom1 dl{float: left;margin: 0 auto;line-height: 22px;}
+.ke-bom1 dt{color: #fff;font-size: 18px;}
+.ke-bom1 dt img{margin-right: 10px;}
+.ke-bom1 .ke-bom-dd{width:335px;margin:20px 213px 0 0;color: #82a0ad;border:0px solid#fff;}
+.ke-bom1 dd{margin-top:20px;color: #82a0ad;border:0px solid#fff;}
+.ke-bom1 .ke-bom-dl{margin:20px 40px 0 75px;color: #82a0ad;border:0px solid#fff;}
+
+.ke-bom2{width: 100%;height: 53px;background:#172125;line-height: 50px; }
+.ke-bom3{width: 1200px;margin:0 auto;color:  #82a0ad; }
+.ke-bom3 dt{float: left }
+.ke-bom3 dd{float: right }

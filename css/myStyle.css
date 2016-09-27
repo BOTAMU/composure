@@ -1,0 +1,119 @@
+body {width: auto; height: auto; font-family: Arial , "微软雅黑";}
+body a {text-decoration: none; color: #000;}
+.lhn {width: 1200px; margin-left: auto; margin-right: auto;}
+.xx {margin-top: 300px;}
+/*****************************************主图轮播************************************/
+.lhn_carouse_home {}
+.home_carouse {height: 477px; position: relative; background: #fff;}
+.home_carouse .home_img {position: absolute; top: 0; left: 0; width: 100%; height: 477px; background-position: center top;}
+/*信息部分*/
+.home_carouse .home_img .home_info{position: relative; width: 1200px; height: 477px; margin: 0 auto; z-index: 10;}
+.home_carouse .h1 .info {position: absolute; top: 0; left: 0; width: 1200px; height: 477px;}
+.home_carouse .info_con {padding: 40px 0 20px 0;}
+.home_carouse .info_one {color: #f60; font-size: 32px; }
+.home_carouse .info_two {color: #999; font-size: 22px; height: 70px; line-height: 70px;}
+.home_carouse .info_bor {width: 508px; height: 1px; background: #e2e2e2; margin-top: 10px;}
+.home_carouse .info_explain {width: 490px; margin-bottom: 57px; line-height: 30px; color: #666; font-size: 14px;}
+.home_carouse .info_btn {display: inline-block; width: 276px; height: 57px;  line-height: 57px; background: #ff5842;}
+.home_carouse .info_wor {float: left; margin-left: 16px; color: #fff; font-size: 30px;}
+.home_carouse .info_bag { float: right; width: 21px; height: 21px; background: url('../images/lhn04.png') no-repeat; margin: 21px 21px 0 0}
+
+/*左右箭头*/
+.home_carouse .home_change {width: 1200px; height: 41px; position: absolute; top: 50%; left: 50%; margin: -50px 0 0 -601px;}
+.home_carouse .home_change p {display: block; width: 41px; height: 41px; background: url("../images/lhnLr.png") no-repeat; position: absolute; z-index: 2;}
+.home_carouse .home_change p.top_prev {left: -41px; cursor: pointer;}
+.home_carouse .home_change p.down_next {right: -41px; background-position: -41px 0; cursor: pointer;}
+
+/************************************广告插入*******************************/
+.lhn_insert_advert {width: 100%; height: 100px; background: url('../images/lhn05.png') repeat-x;}
+.lhn_insert_advert .insert_content {width: 1200px; margin: 0 auto; padding: 24px 0 26px; color: #fff; font-size: 23px; }
+.lhn_insert_advert .insert_content_info {float: left;}
+.lhn_insert_advert .insert_join {display: block; float: left; width: 172px; line-height: 50px; text-align: center; color: #fff; font-size: 23px; background: #1f1f1f;}
+.lhn_insert_advert .insert_us {float: left; margin-left: 10px; margin-top: 12px;}
+.lhn_insert_advert .insert_close {float: right; display: inline-block; width: 22px; height: 22px;background: url('../images/lhn06.png') no-repeat; margin-top: 16px;}
+/*************************************具体内容*******************************/
+.lhn_services {}
+.lhn_services .services_title {}
+.lhn_services .services_title img { background: #fff;}
+.lhn_services .title_image_one {float: left; display: inline-block; padding: 30px 0 30px 0; height: 32px; }
+.lhn_services .title_image_wor {line-height: 36px; margin-left: 10px; font-size: 24px;}
+.lhn_services .title_image_two {float: right; margin-right: 26px; padding: 45px 0 24px 0;}
+.lhn_services .title_image_sam {float: right; padding: 31px 0 20px 0;}
+.lhn_services .title_nav {float: right; display: inline-block; padding: 30px 0 30px 0;}
+.lhn_services .title_image_sam p {float: left; margin-left: 2px;}
+.lhn_services .title_nav li {float: left; padding: 8px 24px 8px 20px; font-size: 15px; font-family: Arial; border-right: 1px solid #e6e6e6;}
+.lhn_services .title_nav li#title_nav_last {padding-right: 0; border-right: 0;}
+.lhn_services .title_nav li.title_nav_active {color: #ef000e;}
+
+
+.lhn_services .services_carouse { padding-bottom: 20px; border-bottom: 1px solid #e6e6e6; width: 1200px; overflow: hidden;}
+.lhn_services .services_carouse li {float: left; width: 380px;} 
+.lhn_services .services_carouse li.mar {margin: 0 30px 0 30px;}
+.lhn_services .carouse_content {border-top: 3px solid #ff5842; background: #f9f9f9;}
+.lhn_services .carouse_title {}
+.lhn_services .carouse_word {display: inline-block; float: left; padding: 31px 0 33px 18px; font-size: 24px;}
+.lhn_services .carouse_icon {float: right;  background: #f9f9f9; padding: 26px 20px 22px 0;}
+.lhn_services .carouse_info {padding: 0 17px 14px 19px; line-height: 30px; font-size: 16px;}
+.lhn_services .carouse_more {display: inline-block; padding: 15px 0 15px 19px; line-height: 20px;}
+.lhn_services .carouse_more_wor {float: left; color: #47b4fe; font-size: 16px;}
+.lhn_services .carouse_more_ico {float: right; margin-left: 10px; margin-top: 2px;}
+
+.lhn_services .title_image_prev {width: 41px; height: 41px; background: url('../images/h0a.png') no-repeat; cursor: pointer;}
+.lhn_services .title_image_next {width: 41px; height: 41px; background: url('../images/h0b.png') no-repeat; cursor: pointer;}
+.lhn_services .services_carouse_bant {padding-bottom: 20px; border-bottom: 1px solid #e6e6e6; width: 1200px; height: 370px; overflow: hidden; position: relative;}
+.lhn_services .bant_carouse_left {width: 4850px; height: 370px; position: absolute; top: 0; left: 0;}
+.lhn_services .bant_carouse_left ul {float: left; width: 1200px; height: 370px;}
+.lhn_services .bant_carouse li {float: left;}
+.lhn_services .bant_carouse li.mar_one {margin-right: 0;}
+.lhn_services .bant_carouse .bant_same {border: 2px solid #f8f8f8; margin-right: 20px; width: 281px; height: 366px; background: #fff; position: relative;}
+.lhn_services .bant_same_goods {}
+.lhn_services .bant_same_goods img {width: 281px; height: 366px;}
+.lhn_services .bant_same_price {width: 281px; height: 100px; background: #f8f8f8; position: absolute; bottom: 0; left: 0;}
+.lhn_services .bant_same_price span {font-size: 17px !important;}
+.lhn_services .bant_same_price dt {padding: 8px 20px 4px 22px;line-height: 26px; text-align: center;}
+.lhn_services .bant_same_price dt .cor {color: #cf000e;}
+.lhn_services .bant_same_price dd {padding: 0 88px 10px 90px;}
+.lhn_services .bant_same_price a {font-size: 12px; display: block; width: 102px; height: 24px; line-height: 26px; text-align: center; background: #e6e6e6;}
+.lhn_services .bant_same_price a:hover {color: #fff; background: #ff5842;}
+
+.lhn_services .services_carouse_box {width: 1200px; height: 541px; overflow: hidden; position: relative;}
+.lhn_services .services_carouse_box ul {float: left; position: absolute; top: 0; left: 0; display: none}
+.lhn_services .services_carouse_box ul.box_out {display: block;}
+.lhn_services .carouse_same_imgs img {width: 595px; height: 240px;}
+.lhn_services .services_carouse .carouse_box {width: 595px; height: 240px; background: #686868; position: relative; overflow: hidden;}
+.lhn_services .carouse_left {float: left; margin-bottom: 10px; margin-right: 10px;}
+.lhn_services .carouse_right {float: right; margin-bottom: 10px;}
+.lhn_services .carouse_same_info {width: 595px; height: 240px; position: absolute; bottom: -169px; left: 0; background: #272727;}
+.lhn_services .carouse_info_title {padding: 8px 0 12px 18px; line-height: 30px;}
+.lhn_services .carouse_info_title dd {color: #fff; font-size: 12px;}
+.lhn_services .carouse_info_title dd.carouse_info_big {font-size: 22px;}
+.lhn_services .carouse_info_content {padding: 12px 40px 0 20px; line-height: 20px; color: #fff; font-size: 14px;}
+.lhn_services .services_carouse .carouse_scroll {width: 1200px; height: 20px; background: #efefef;}
+.lhn_services .services_carouse .carouse_scroll span {display: block; width: 500px; height: 20px; background: #ff5842;}
+
+.lhn_services .services_banner {width: 1200px; padding-bottom: 18px; border-bottom: 1px solid #e6e6e6;}
+.lhn_services .banner_prev {float: left; width: 41px; height: 170px; background: url("../images/lhn18.png") no-repeat; cursor: pointer;}
+.lhn_services .banner_next {float:right; width: 41px; height: 170px; background: url("../images/lhn19.png") no-repeat; cursor: pointer;}
+.lhn_services .banner_case {float: left; padding: 0 10px 0 10px; width: 1098px; height: 170px; overflow: hidden; position: relative;}
+.lhn_services .banner_boxs {width: 6000px; height: 170px; position: absolute; top: 0; left: 0;}
+.lhn_services .banner_boxs li {float: left; padding: 0 10px 0 10px; width: 1098px; height: 170px;}
+.lhn_services .banner_imgs {float: left; width: 200px; height: 170px; margin-right: 15px;}
+.lhn_services .banner_imgs img {width: 200px; height: 170px;}
+.lhn_services .banner_info {float: right; width: 883px; height: 170px; line-height: 20px;}
+.lhn_services .banner_word0 {font-size: 20px;}
+.lhn_services .banner_word1 {font-size: 12px; margin: 14px 0 22px 0;}
+.lhn_services .banner_word1 span {color: #ef000e;}
+.lhn_services .banner_word2 {font-size: 15px;}
+.lhn_services .banner_word3 {display: block; width: 183px; height: 45px; line-height: 45px; text-align: center; color: #fff; font-size: 16px; background: #ff5842; margin-top: 10px;}
+.lhn_services .services_talk {margin-bottom: 50px; position: relative;}
+.lhn_services .services_talking {float: left; margin-right: 15px; width: 253px;}
+.lhn_services .talking_content {width: 253px; height: 96px; font-size: 13px; line-height: 20px; background: url('../images/lhn21.png') no-repeat; padding: 1px 0 0 3px;}
+.lhn_services .talking_other {padding-top: 10px; font-size: 13px;}
+.lhn_services .talking_box {float: left; width: 30px; height: 30px; background: #686868;}
+.lhn_services .talking_name {float: left; margin-left: 5px;}
+.lhn_services .services_twitter {width: 390px; position: absolute; top: -70px; right: 0; background: #57bae8;}
+.lhn_services .twitter_img {padding: 19px 171px 30px 171px;}
+.lhn_services .twitter_img img {background: #57bae8;}
+.lhn_services .twitter_one {padding: 0 20px 10px 20px; line-height: 20px; text-align: center; color: #fff; font-size: 16px;}
+.lhn_services .twitter_two {color: #ccc; font-size: 14px; line-height: 20px; text-align: center; padding-bottom: 28px;}
+.lhn_services .twitter_thr {color: #fff; font-size: 18px; padding: 0 0 5px 8px;}
